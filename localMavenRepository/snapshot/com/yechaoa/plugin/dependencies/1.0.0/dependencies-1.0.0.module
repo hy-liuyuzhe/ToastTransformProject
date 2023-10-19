@@ -20,29 +20,20 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 7,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
-      "dependencies": [
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
-          "version": {
-            "requires": "1.6.21"
-          }
-        }
-      ],
       "files": [
         {
           "name": "dependencies-1.0.0.jar",
           "url": "dependencies-1.0.0.jar",
-          "size": 2146,
-          "sha512": "388e98a18ecb59be9fe0c62a47d6ae0c13c70b707f7e95c2337ad5fe9939a9ebe50cf3902888c17c3eec755bb3d7ec6b653d9f1509c397293ae2f8aebe7b0627",
-          "sha256": "74f128e2111edfdd13027e90874ed09c3c12810f51b8c96e52baabd5f811f54b",
-          "sha1": "860f86de7c8106064b615cd5c495d70ec0a7ebbd",
-          "md5": "aad50f5e6f3d4702490f2123483eb921"
+          "size": 12381,
+          "sha512": "7844e1d82e44e375e1fc0361b5672528752b49c11f50780072853369eb1637080f89649920be6fcc8c68ec73d7a573120d83fa5148b4eabc404744a5fa708e01",
+          "sha256": "fae34f27a8fd31e170d2d04b11a91704223f53de672d9ad73f1602221b1572d3",
+          "sha1": "6f55afd10160df18faea68dbcfcd930d4a098863",
+          "md5": "754b1a4462d4548f11e16ae4cd1ffe5b"
         }
       ]
     },
@@ -52,17 +43,38 @@
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
         "org.gradle.jvm.environment": "standard-jvm",
-        "org.gradle.jvm.version": 7,
+        "org.gradle.jvm.version": 8,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime",
         "org.jetbrains.kotlin.platform.type": "jvm"
       },
       "dependencies": [
         {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "7.1.0"
+          }
+        },
+        {
+          "group": "com.android.tools",
+          "module": "common",
+          "version": {
+            "requires": "30.1.0"
+          }
+        },
+        {
           "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
+          "module": "kotlin-stdlib-jdk7",
           "version": {
             "requires": "1.6.21"
+          }
+        },
+        {
+          "group": "org.javassist",
+          "module": "javassist",
+          "version": {
+            "requires": "3.22.0-GA"
           }
         }
       ],
@@ -70,11 +82,11 @@
         {
           "name": "dependencies-1.0.0.jar",
           "url": "dependencies-1.0.0.jar",
-          "size": 2146,
-          "sha512": "388e98a18ecb59be9fe0c62a47d6ae0c13c70b707f7e95c2337ad5fe9939a9ebe50cf3902888c17c3eec755bb3d7ec6b653d9f1509c397293ae2f8aebe7b0627",
-          "sha256": "74f128e2111edfdd13027e90874ed09c3c12810f51b8c96e52baabd5f811f54b",
-          "sha1": "860f86de7c8106064b615cd5c495d70ec0a7ebbd",
-          "md5": "aad50f5e6f3d4702490f2123483eb921"
+          "size": 12381,
+          "sha512": "7844e1d82e44e375e1fc0361b5672528752b49c11f50780072853369eb1637080f89649920be6fcc8c68ec73d7a573120d83fa5148b4eabc404744a5fa708e01",
+          "sha256": "fae34f27a8fd31e170d2d04b11a91704223f53de672d9ad73f1602221b1572d3",
+          "sha1": "6f55afd10160df18faea68dbcfcd930d4a098863",
+          "md5": "754b1a4462d4548f11e16ae4cd1ffe5b"
         }
       ]
     }
