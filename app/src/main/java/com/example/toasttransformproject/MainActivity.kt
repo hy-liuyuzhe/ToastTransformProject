@@ -13,5 +13,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.tv).setOnClickListener {
             startActivity(Intent(this, HelloActivity::class.java))
         }
+//        ToastP
     }
 }
